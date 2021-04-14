@@ -4,9 +4,9 @@
       <script src="/socket.io/socket.io.js"></script>
       <script type="text/Javascript">
       var socket = io.connect("http://localhost:9090/");
-      //function click() {
+      function click() {
         socket.emit("details", `Hello ${form.name.value}, your message is: ${form.msg.value}`);
-      //}
+      }
       </script>
     </head>
     <body>
