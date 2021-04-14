@@ -1,0 +1,23 @@
+{
+  "name": "chattingwithsocketio",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkhalil98/ChattingWithSocketIO.git"
+  },
+  "author": "Gibran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkhalil98/ChattingWithSocketIO/issues"
+  },
+  "homepage": "https://github.com/gkhalil98/ChattingWithSocketIO#readme",
+  "dependencies": {
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

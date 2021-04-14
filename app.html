@@ -1,0 +1,22 @@
+<html>
+  <head>
+      <!--Connecterd socket library file-->
+      <script src="/socket.io/socket.io.js"></script>
+      <script type="text/Javascript">
+      var socket = io.connect("http://localhost:9090/");
+      //function click() {
+        socket.emit("details", `Hello ${form.name.value}, your message is: ${form.msg.value}`);
+      //}
+      </script>
+    </head>
+    <body>
+      <h1>Socket.io Programming</h1>
+      <form name="form">
+        <label>Name</label>
+        <input type="text" name="name" value="Enter your name"/><br/>
+        <label>Message</label>
+        <input type="text" name="msg" value="Enter your message"/><br/>
+        <input type="submit" onclick="click()" value="Submit"/>
+      </form>
+    </body>
+</html>
